@@ -7,10 +7,10 @@ disqusShortname: ''
 params:
   banner:
     buttonText: Get Started
-    # subtitle: |-
-    #   A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-    #   AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Emma Christine Clark and I am from Huntington Beach, California, USA. I am a student at London Business School in the my Masters in Analytics and Management program. Below are some demonstrations from my work thus far in R.  
+    subtitle: |-
+       and I am from Huntington Beach, California, USA. I am a student at London Business School 
+       in the my Masters in Analytics and Management program. Below are some demonstrations from my work thus far in R.  
+    title: Hi, my name is Emma Christine Clark
   blog: {}
   contact:
     address: 
