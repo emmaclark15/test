@@ -1,6 +1,6 @@
 baseURL: https://emmaclark.netlify.app/
 languageCode: en-us
-title: Emma Clark
+title: Portfolio Website for Emma Clark
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -10,13 +10,13 @@ params:
     # subtitle: |-
     #   A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
     #   AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Emma
+    title: Hi, my name is Emma Christine Clark and I am from Huntington Beach, California, USA. I am a student at London Business School in the my Masters in Analytics and Management program. Below are some demonstrations from my work thus far in R.  
   blog: {}
   contact:
-    address:
-      - city: City, ST 00000
-        country: Country
-        street: Street
+    address: 
+      - city: London, NW1 5AH
+        country: United Kingdom
+        street: Dorset House, Gloucester Place
         title: Address
     buttonClear: Clear
     buttonSend: Send message
@@ -25,7 +25,7 @@ params:
         title: Email
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: (+1) 714-801-5552 x1234
         title: Phone
   custom_css: []
   custom_js: []
@@ -35,7 +35,7 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: Company Name
+    copyright: Emma Clark Inc.
     enable: yes
     quicklinks:
       - alt: HTML5 UP
@@ -44,19 +44,19 @@ params:
     social:
       - icon: fa-twitter
         label: Twitter
-        url: https://www.twitter.com
-      - icon: fa-facebook
-        label: Facebook
-        url: https://www.facebook.com
+        url: https://www.twitter.com/emmaa_clarkk
+      #- icon: fa-facebook
+        #label: Facebook
+        #url: https://www.facebook.com
       - icon: fa-instagram
         label: Instagram
         url: https://www.instagram.com/emmaclark_
       - icon: fa-github
         label: GitHub
-        url: https://www.github.com
+        url: https://www.github.com/emmaclark15
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com
+        url: https://www.linkedin.com/in/emma-clark-6779221a0
   image: ''
   name: Your name
   navigation:
@@ -71,10 +71,10 @@ params:
         url: '#'
       - name: Blogs
         url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
+      #- name: Generic Blog
+       # url: blogs/ipsum
+    #  - name: Elements
+     #   url: elements.html
     menu: Menu
     subtitle: By HTML5 Up
     title: Forty
