@@ -8,8 +8,7 @@ params:
   banner:
     buttonText: Get Started
    # subtitle: |-
-    #   
-     #  
+     #  Welcome to my website!
     title: Hi, my name is Emma Christine Clark
   blog: {}
   contact:
@@ -82,13 +81,13 @@ params:
     enable: yes
     showcase:
       - image: lbs.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
-        url: blogs/aliquam
-      - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
-        url: blogs/tempus
+        subtitle: Professional and Educational Background
+        title: CV/Resume
+        url: cv/emmaclark
+      - image: knitr::include_graphics("/img/hb.JPG",error=FALSE)
+        subtitle: Additional History
+        title: About Me
+        url: aboutme/emmaclark
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
         title: Magna
