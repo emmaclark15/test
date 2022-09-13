@@ -84,7 +84,8 @@ params:
         subtitle: Professional and Educational Background
         title: CV/Resume
         url: cv/emmaclark
-      - image: knitr::include_graphics("/img/hb.JPG",error=FALSE)
+              knitr::include_graphics("/img/hb.JPG",error=FALSE)
+      - image: hb.JPG
         subtitle: Additional History
         title: About Me
         url: aboutme/emmaclark
