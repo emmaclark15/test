@@ -83,12 +83,11 @@ params:
       - image: lbs.jpg
         subtitle: Professional and Educational Background
         title: CV/Resume
-        url: cv/emmaclark
-              knitr::include_graphics("/img/hb.JPG",error=FALSE)
+        url: blogs/Resume.pdf
       - image: hb.JPG
         subtitle: Additional History
         title: About Me
-        url: aboutme/emmaclark
+        url: blogs/bio
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
         title: Magna
