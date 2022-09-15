@@ -1,0 +1,81 @@
+---
+categories:
+- ""
+- ""
+date: "2017-10-31T21:28:43-05:00"
+description: ""
+draft: false
+image: pic10.jpg
+keywords: ""
+slug: countries
+title: Country Comparison
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(gapminder)
+library(tidyverse )
+```
+
+## Country Comparison
+
+The `gapminder` dataset that has data on life expectancy, population, and GDP per capita for 142 countries from 1952 to 2007. To get a glimpse of the data frame, namely to see the variable names, variable types, etc., the `glimpse` function is used below in addition to looking at the first 20 rows of data.
+
+```{r}
+glimpse(gapminder)
+head(gapminder, 20) # look at the first 20 rows of the dataframe
+gapminder
+```
+
+Using the gapminder data set I selected and filtered data from my home country, the United States, as well as from my continent, the Americas. Using this filtered data I then displayed the life expectancy in the US since 1952.
+
+```{r}
+us_data <- gapminder %>% 
+            filter(country == "United States") # I chose my home country
+americas_data <- gapminder %>% 
+            filter(continent == "Americas")
+```
+
+```{r, lifeExp_US}
+
+ us_plot <- ggplot(data = us_data, mapping = aes(x = year, y = lifeExp))+
+   geom_point() +
+   geom_smooth(se = FALSE)+
+  labs(title = "Life Expectancy in the US Since the 1950s",
+      x = "Year",
+      y = "Life Expectancy") 
+  NULL
+  us_plot 
+  
+```
+
+It is also helpful to look at the life expectancy across all countries in the Americas to see the variation across nations.
+
+```{r lifeExp_americas}
+ggplot(americas_data, 
+      mapping = aes(x = year , y = lifeExp , 
+      colour= country, group =country))+
+   geom_point() + 
+   geom_smooth(se = FALSE) +
+  labs(title= "Life Expectancy In the Americas Since the 1950s",
+       x="Year",
+       y="Life Expectancy")
+   NULL
+
+```
+
+Finally, we will look at the life expectancy of every country, grouped by continent, since 1952.
+
+```{r lifeExp_facet_by_continent}
+ ggplot(data = gapminder , 
+        mapping = aes(x =year  , y = lifeExp , colour= continent))+
+   geom_point() + 
+   geom_smooth(se = FALSE) +
+  facet_wrap(~continent) +
+  theme(legend.position="none") + #remove all legends
+   NULL
+```
+
+Given these trends, what can we say about life expectancy since 1952?
+
+Given these trends, life expectancy has increased across all five continents listed. Looking closer at Africa, the overall life expectancy is significantly lower than the other 4 continents. We see a change in the rate of increase around the 1980s/90s in Africa which might be attributable to civil wars across the continent but is more likely related to the HIV epidemic of the 1990s. Sub-Saharan Africa was the center of the epidemic and was hit the hardest of the 5 continents. The European graph shows a single country, Albania, with a lower mortality rate catching up to the rest of Europe at the turn of the 21st century around the time it joined NATO. Overall, Europe and Oceania have the highest life expectancy with the least amount of variation across it's countries which may be a result of general peace times in which the general population was living much longer than their war torn ancestors. There is a large variation within the Americas which depicts the vast wealth disparity between countries such as the US and Canada versus countries such as Haiti and Argentina as depicted in the second graphic.
