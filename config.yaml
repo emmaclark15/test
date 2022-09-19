@@ -62,8 +62,8 @@ params:
     button1:
       - name: Get Started
         url: blogs
-   # button2:
-      #- name: Log In
+    button2:
+      - name: Log In
         url: '#'
     links:
       - name: Home
@@ -87,11 +87,11 @@ params:
       - image: hb.JPG
         subtitle: Additional History
         title: About Me
-        url: blogs/bio
+        url: blogs/about_me
       - image: pic03.jpg
         subtitle: Filtering, Grouping, and Visualizing Data
         title: Country Comparison
-        url: blogs/countries
+        url: blogs/country_comparison
       - image: pic04.jpg
         subtitle: Nisl Sed Aliquam
         title: Ipsum

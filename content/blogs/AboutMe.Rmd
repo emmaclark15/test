@@ -1,13 +1,13 @@
 ---
-categories:
+categories:  
+- ""  
 - ""
-- ""
-date: ""
-description: ""
+date: "2022-09-19"
+description: About Me
 draft: false
-image: pic10.jpg
+image: ndgrad.jpg 
 keywords: ""
-slug: bio
+slug: about_me # slug is the shorthand URL address... no spaces plz
 title: About Me
 ---
 
@@ -20,5 +20,5 @@ Being an athlete was a large part of my identity for as long as I could remember
 I chose to come to London because it is one of the largest and most diverse settings for international business. I hope to use this year to learn about people and cultures from every corner of the world and gain a new appreciation and understanding. As I searched for schools in London, it was an easy choice for the MAM program at LBS. LBS has the highest level of prestige and rigor while still fostering a community of support and compassion not only for but among its students. This rich environment will help me pursue my passion for data analytics in the healthcare industry. I cannot wait for the new challenges and experiences this year and my future have to offer!
 
 ```{r image, echo=FALSE}
-knitr::include_graphics("images/bros.jpeg",error =FALSE)
+knitr::include_graphics("/img/brothers.jpeg",error=FALSE)
 ```

@@ -1,13 +1,13 @@
 ---
-categories:
+categories:  
+- ""  
 - ""
-- ""
-date: "2017-10-31T21:28:43-05:00"
-description: ""
+date: "2022-09-19"
+description: Country Comparison
 draft: false
-image: pic10.jpg
+image: flag.jpg 
 keywords: ""
-slug:countries
+slug: country_comparison # slug is the shorthand URL address... no spaces plz
 title: Country Comparison
 ---
 
@@ -21,7 +21,7 @@ library(tidyverse )
 
 The `gapminder` dataset that has data on life expectancy, population, and GDP per capita for 142 countries from 1952 to 2007. To get a glimpse of the data frame, namely to see the variable names, variable types, etc., the `glimpse` function is used below in addition to looking at the first 20 rows of data.
 
-```{r}
+```{r echo=TRUE}
 glimpse(gapminder)
 head(gapminder, 20) # look at the first 20 rows of the dataframe
 gapminder
@@ -29,14 +29,14 @@ gapminder
 
 Using the gapminder data set I selected and filtered data from my home country, the United States, as well as from my continent, the Americas. Using this filtered data I then displayed the life expectancy in the US since 1952.
 
-```{r}
+```{r, creating data}
 us_data <- gapminder %>% 
             filter(country == "United States") # I chose my home country
 americas_data <- gapminder %>% 
             filter(continent == "Americas")
 ```
 
-```{r, lifeExp_US}
+```{r, plotting }
 
  us_plot <- ggplot(data = us_data, mapping = aes(x = year, y = lifeExp))+
    geom_point() +
