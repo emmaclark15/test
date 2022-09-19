@@ -5,15 +5,15 @@ theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
-  banner:
+  banner: ocean.jpeg
     buttonText: Get Started
    # subtitle: |-
      #  Welcome to my website!
-    title: Hi, my name is Emma Christine Clark
+    title: Hi, my name is Emma Clark
   blog: {}
   contact:
     address: 
-      - city: London, NW1 5AH
+      - city: London
         country: United Kingdom
         street: Dorset House, Gloucester Place
         title: Address
@@ -24,7 +24,7 @@ params:
         title: Email
     enable: yes
     phone:
-      - phone: (+1) 714-801-5552 x1234
+      - phone: (+1) 714-801-5552
         title: Phone
   custom_css: []
   custom_js: []
@@ -62,8 +62,8 @@ params:
     button1:
       - name: Get Started
         url: blogs
-    button2:
-      - name: Log In
+   # button2:
+      #- name: Log In
         url: '#'
     links:
       - name: Home
