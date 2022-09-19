@@ -5,7 +5,7 @@ theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
-  banner: ocean.jpeg
+  banner: 
     buttonText: Get Started
    # subtitle: |-
      #  Welcome to my website!
