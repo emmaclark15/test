@@ -2,14 +2,41 @@
 categories:  
 - ""  
 - ""
-date: "2022-09-19"
+date: "`r Sys.Date()`"
 description: Country Comparison
 draft: false
 image: flag.jpg 
 keywords: ""
 slug: country_comparison # slug is the shorthand URL address... no spaces plz
 title: Country Comparison
+output:
+  html_document:
+    theme: flatly
+    highlight: zenburn
+    number_sections: yes
+    toc: yes
+    toc_float: yes
+    code_folding: show
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, 
+  warning = FALSE, 
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+options(digits = 3)
+
+# default figure size
+knitr::opts_chunk$set(
+  fig.width=6.75, 
+  fig.height=6.75,
+  fig.align = "center"
+)
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

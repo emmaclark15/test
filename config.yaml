@@ -88,22 +88,22 @@ params:
         subtitle: Additional History
         title: About Me
         url: blogs/about_me
-      - image: pic03.jpg
+      - image: flag.jpg
         subtitle: Filtering, Grouping, and Visualizing Data
         title: Country Comparison
         url: blogs/country_comparison
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
+        subtitle: Analyzing stocks from the US Stock Exchange
+        title: Returns on Financial Stocks
+        url: blogs/risk_return
       - image: pic05.jpg
         subtitle: Ipsum Dolor Sit Amet
-       # title: Consequat
-      #  url: blogs/ipsum
-     # - image: pic06.jpg
-       # subtitle: Feugiat Amet Tempus
-       # title: Etiam
-       # url: blogs/ipsum
+        title: Consequat
+        url: blogs/ipsum
+      - image: pic06.jpg
+        subtitle: Feugiat Amet Tempus
+        title: Etiam
+        url: blogs/ipsum
  # two:
    # buttonText: Get Started
    # enable: yes
