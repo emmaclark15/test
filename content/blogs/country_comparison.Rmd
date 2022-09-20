@@ -12,7 +12,6 @@ slug: country_comparison
 title: Country Comparison
 ---
 
-
 ```{r, setup, echo=FALSE}
 knitr::opts_chunk$set(
   message = FALSE, 
@@ -74,7 +73,7 @@ americas_data <- gapminder %>%
   labs(title = "Life Expectancy in the US Since the 1950s",
       x = "Year",
       y = "Life Expectancy") 
-  NULL
+  
   us_plot 
   
 ```
@@ -102,8 +101,7 @@ Finally, we will look at the life expectancy of every country, grouped by contin
    geom_point() + 
    geom_smooth(se = FALSE) +
   facet_wrap(~continent) +
-  theme(legend.position="none") + #remove all legends
-   NULL
+  theme(legend.position="none") #remove all legends
 ```
 
 Given these trends, what can we say about life expectancy since 1952?
