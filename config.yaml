@@ -101,7 +101,7 @@ params:
         subtitle: Analysis on global temperature fluctuations
         title: Climate Change
         url: blogs/climate_change
-      - #image: pic06.jpg
+     # - image: pic06.jpg
         #subtitle: Feugiat Amet Tempus
         #title: Etiam
         #url: blogs/ipsum
