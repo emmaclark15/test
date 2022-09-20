@@ -93,7 +93,7 @@ params:
         subtitle: Filtering, Grouping, and Visualizing Data
         title: Country Comparison
         url: blogs/country_comparison
-      - image: pic04.jpg
+      - image: spices.jpeg
         subtitle: Analyzing stocks from the US Stock Exchange
         title: Returns on Financial Stocks
         url: blogs/risk_return
