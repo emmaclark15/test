@@ -5,11 +5,12 @@ theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
-  banner: ocean.jpeg
+  banner:
     buttonText: Get Started
    # subtitle: |-
      #  Welcome to my website!
     title: Hi, my name is Emma Clark
+    
   blog: {}
   contact:
     address: 
@@ -56,7 +57,7 @@ params:
       - icon: fa-linkedin
         label: LinkedIn
         url: https://www.linkedin.com/in/emma-clark-6779221a0
-  image: ''
+  image: ocean.jpeg
   name: Your name
   navigation:
     button1:
@@ -96,10 +97,10 @@ params:
         subtitle: Analyzing stocks from the US Stock Exchange
         title: Returns on Financial Stocks
         url: blogs/risk_return
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
+      - image: pic03.jpg
+        subtitle: Analysis on global temperature fluctuations
+        title: Climate Change
+        url: blogs/climate_change
       - image: pic06.jpg
         subtitle: Feugiat Amet Tempus
         title: Etiam
