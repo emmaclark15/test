@@ -6,4 +6,4 @@ slug: blogs
 title: Blogs and Projects
 ---
 
-My blogs about technology and lifestyle.
+This page includes my blag describing who I am and several projects I have worked on. 
