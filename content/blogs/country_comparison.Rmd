@@ -5,7 +5,7 @@ categories:
 date: "2022-09-20"
 description: Country Comparison
 draft: false
-image: flag.jpg 
+image: american_wind.jpeg 
 
 keywords: ""
 slug: country_comparison

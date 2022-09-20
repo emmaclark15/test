@@ -1,13 +1,14 @@
 ---
 categories:  
-- ""  
+- ""
 - ""
 date: "2022-09-20"
 description: Country Comparison
 draft: false
-image: flag.jpg 
+image: american_wind.jpeg 
+
 keywords: ""
-slug: country_comparison # slug is the shorthand URL address... no spaces plz
+slug: country_comparison
 title: Country Comparison
 ---
 
@@ -77,9 +78,8 @@ americas_data &lt;- gapminder %&gt;%
   labs(title = &quot;Life Expectancy in the US Since the 1950s&quot;,
       x = &quot;Year&quot;,
       y = &quot;Life Expectancy&quot;) 
-  NULL</code></pre>
-<pre><code>## NULL</code></pre>
-<pre class="r"><code>  us_plot </code></pre>
+  
+  us_plot </code></pre>
 <p><img src="/blogs/country_comparison_files/figure-html/plotting-1.png" width="648" style="display: block; margin: auto;" /></p>
 <p>It is also helpful to look at the life expectancy across all countries in the Americas to see the variation across nations.</p>
 <pre class="r"><code>ggplot(americas_data, 
@@ -99,8 +99,7 @@ americas_data &lt;- gapminder %&gt;%
    geom_point() + 
    geom_smooth(se = FALSE) +
   facet_wrap(~continent) +
-  theme(legend.position=&quot;none&quot;) + #remove all legends
-   NULL</code></pre>
+  theme(legend.position=&quot;none&quot;) #remove all legends</code></pre>
 <p><img src="/blogs/country_comparison_files/figure-html/lifeExp_facet_by_continent-1.png" width="648" style="display: block; margin: auto;" /></p>
 <p>Given these trends, what can we say about life expectancy since 1952?</p>
 <p>Given these trends, life expectancy has increased across all five continents listed. Looking closer at Africa, the overall life expectancy is significantly lower than the other 4 continents. We see a change in the rate of increase around the 1980s/90s in Africa which might be attributable to civil wars across the continent but is more likely related to the HIV epidemic of the 1990s. Sub-Saharan Africa was the center of the epidemic and was hit the hardest of the 5 continents. The European graph shows a single country, Albania, with a lower mortality rate catching up to the rest of Europe at the turn of the 21st century around the time it joined NATO. Overall, Europe and Oceania have the highest life expectancy with the least amount of variation across it’s countries which may be a result of general peace times in which the general population was living much longer than their war torn ancestors. There is a large variation within the Americas which depicts the vast wealth disparity between countries such as the US and Canada versus countries such as Haiti and Argentina as depicted in the second graphic.</p>
