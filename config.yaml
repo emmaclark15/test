@@ -88,7 +88,7 @@ params:
         subtitle: Additional History
         title: About Me
         url: blogs/about_me
-      - image: flag.jpg
+      - image: usflag.jpeg
         subtitle: Filtering, Grouping, and Visualizing Data
         title: Country Comparison
         url: blogs/country_comparison
